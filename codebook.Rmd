@@ -1,0 +1,15 @@
+---
+title: "Codebook for tidy UCI HAR Dataset"
+output: pdf_document
+---
+
+## tidy data
+
+
+```{r tidyData, echo=FALSE,eval=TRUE}
+tidyData <- read.csv("./tidyUCIHARdataset.txt")
+summary(tidyData)
+```
+
+
+## tidy data aggregated 
