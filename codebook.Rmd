@@ -1,6 +1,6 @@
 ---
 title: "Codebook for tidy UCI HAR Dataset"
-output: pdf_document
+output: word_document
 ---
 
 ## tidy data
@@ -13,3 +13,9 @@ summary(tidyData)
 
 
 ## tidy data aggregated 
+
+
+```{r aggregatedTidyData, echo=FALSE,eval=TRUE}
+aggregatedTidyData <- read.csv("./aggregatedTidyUCIHARdataset.txt")
+summary(aggregatedTidyData)
+```

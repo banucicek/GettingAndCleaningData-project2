@@ -1,5 +1,3 @@
-setwd("C:/Users/U082771/Desktop/gettingAndCleaningData/project2")
-
 # get the variable and activity names from the files
 variableNames <- read.table("./UCI HAR Dataset/features.txt",stringsAsFactors = FALSE)
 activityNames <- read.table("./UCI HAR Dataset/activity_labels.txt")
